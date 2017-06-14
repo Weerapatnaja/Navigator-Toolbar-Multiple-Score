@@ -19,6 +19,7 @@
 		FA7D45A31EF1228E0076729C /* ic_chevron_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A21EF1228E0076729C /* ic_chevron_left_2x.png */; };
 		FA7D45A51EF123310076729C /* ic_home_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A41EF123310076729C /* ic_home_2x.png */; };
 		FA7D45A71EF123690076729C /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A61EF123690076729C /* ic_home.png */; };
+		FA7D45A91EF139280076729C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D45A81EF139280076729C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FA7D45A21EF1228E0076729C /* ic_chevron_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_2x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_2x.png; sourceTree = "<group>"; };
 		FA7D45A41EF123310076729C /* ic_home_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home_2x.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home_2x.png; sourceTree = "<group>"; };
 		FA7D45A61EF123690076729C /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home.png; sourceTree = "<group>"; };
+		FA7D45A81EF139280076729C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				FA7D45881EF118FB0076729C /* AppDelegate.swift */,
 				FA7D458A1EF118FB0076729C /* ViewController.swift */,
 				FA7D458C1EF118FB0076729C /* Main.storyboard */,
+				FA7D45A81EF139280076729C /* SecondViewController.swift */,
 				FA7D458F1EF118FB0076729C /* Assets.xcassets */,
 				FA7D45911EF118FB0076729C /* LaunchScreen.storyboard */,
 				FA7D45941EF118FB0076729C /* Info.plist */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7D45A91EF139280076729C /* SecondViewController.swift in Sources */,
 				FA7D458B1EF118FB0076729C /* ViewController.swift in Sources */,
 				FA7D45891EF118FB0076729C /* AppDelegate.swift in Sources */,
 			);

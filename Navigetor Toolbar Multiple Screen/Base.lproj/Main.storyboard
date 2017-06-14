@@ -31,8 +31,16 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="First Screen" id="1Zt-tm-Zax">
-                                        <barButtonItem key="leftBarButtonItem" image="ic_chevron_left_2x.png" id="cdH-op-CTI"/>
-                                        <barButtonItem key="rightBarButtonItem" image="ic_chevron_right_2x.png" id="Cah-Jm-7ij"/>
+                                        <barButtonItem key="leftBarButtonItem" image="ic_chevron_left_2x.png" id="cdH-op-CTI">
+                                            <connections>
+                                                <action selector="decreseNumber:" destination="BYZ-38-t0r" id="406-7h-0GN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_chevron_right_2x.png" id="Cah-Jm-7ij">
+                                            <connections>
+                                                <action selector="increseNumber:" destination="BYZ-38-t0r" id="wdP-Zi-jIX"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -41,16 +49,24 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem image="ic_home.png" id="z4y-Su-X9f"/>
+                                    <barButtonItem image="ic_autorenew.png" id="z4y-Su-X9f">
+                                        <connections>
+                                            <action selector="HomeNumber:" destination="BYZ-38-t0r" id="Dhj-Ed-qIA"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="6DW-X1-tNA"/>
-                                    <barButtonItem systemItem="bookmarks" id="7zh-I3-qXe"/>
+                                    <barButtonItem systemItem="reply" id="bea-Y8-fw7">
+                                        <connections>
+                                            <segue destination="W3N-YH-gpk" kind="show" id="Ini-ry-VqQ"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="RzH-C7-dPx"/>
-                                    <barButtonItem systemItem="reply" id="bea-Y8-fw7"/>
+                                    <barButtonItem systemItem="bookmarks" id="7zh-I3-qXe"/>
                                 </items>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ6-19-25D">
-                                <rect key="frame" x="73" y="103" width="229" height="482"/>
+                                <rect key="frame" x="73" y="84" width="229" height="482"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
@@ -59,15 +75,36 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="HZ6-19-25D" id="S39-4v-v1S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="mOr-te-tNQ">
+            <objects>
+                <viewController id="W3N-YH-gpk" customClass="SecondViewController" customModule="Navigetor_Toolbar_Multiple_Screen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uq4-10-fBw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q8w-3K-3vQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HIk-lb-Wch">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5YN-U6-dfw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046" y="139"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="ic_autorenew.png" width="24" height="24"/>
         <image name="ic_chevron_left_2x.png" width="48" height="48"/>
         <image name="ic_chevron_right_2x.png" width="48" height="48"/>
-        <image name="ic_home.png" width="24" height="24"/>
     </resources>
 </document>
