@@ -12,6 +12,13 @@
 		FA7D458E1EF118FB0076729C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D458C1EF118FB0076729C /* Main.storyboard */; };
 		FA7D45901EF118FB0076729C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D458F1EF118FB0076729C /* Assets.xcassets */; };
 		FA7D45931EF118FB0076729C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45911EF118FB0076729C /* LaunchScreen.storyboard */; };
+		FA7D459D1EF120570076729C /* ic_autorenew_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D459A1EF120570076729C /* ic_autorenew_2x.png */; };
+		FA7D459E1EF120570076729C /* ic_autorenew_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D459B1EF120570076729C /* ic_autorenew_3x.png */; };
+		FA7D459F1EF120570076729C /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D459C1EF120570076729C /* ic_autorenew.png */; };
+		FA7D45A11EF122780076729C /* ic_chevron_right_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A01EF122780076729C /* ic_chevron_right_2x.png */; };
+		FA7D45A31EF1228E0076729C /* ic_chevron_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A21EF1228E0076729C /* ic_chevron_left_2x.png */; };
+		FA7D45A51EF123310076729C /* ic_home_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A41EF123310076729C /* ic_home_2x.png */; };
+		FA7D45A71EF123690076729C /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D45A61EF123690076729C /* ic_home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		FA7D458F1EF118FB0076729C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7D45921EF118FB0076729C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7D45941EF118FB0076729C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D459A1EF120570076729C /* ic_autorenew_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_2x.png; path = ../../../../Desktop/ic_autorenew_2x.png; sourceTree = "<group>"; };
+		FA7D459B1EF120570076729C /* ic_autorenew_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_3x.png; path = ../../../../Desktop/ic_autorenew_3x.png; sourceTree = "<group>"; };
+		FA7D459C1EF120570076729C /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew.png; path = ../../../../Desktop/ic_autorenew.png; sourceTree = "<group>"; };
+		FA7D45A01EF122780076729C /* ic_chevron_right_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_right_2x.png; path = ../../../../Downloads/ic_chevron_right_black_24dp/ios/ic_chevron_right.imageset/ic_chevron_right_2x.png; sourceTree = "<group>"; };
+		FA7D45A21EF1228E0076729C /* ic_chevron_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_2x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_2x.png; sourceTree = "<group>"; };
+		FA7D45A41EF123310076729C /* ic_home_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home_2x.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home_2x.png; sourceTree = "<group>"; };
+		FA7D45A61EF123690076729C /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 		FA7D45871EF118FB0076729C /* Navigetor Toolbar Multiple Screen */ = {
 			isa = PBXGroup;
 			children = (
+				FA7D45A61EF123690076729C /* ic_home.png */,
+				FA7D45A41EF123310076729C /* ic_home_2x.png */,
+				FA7D45A21EF1228E0076729C /* ic_chevron_left_2x.png */,
+				FA7D45A01EF122780076729C /* ic_chevron_right_2x.png */,
+				FA7D459A1EF120570076729C /* ic_autorenew_2x.png */,
+				FA7D459B1EF120570076729C /* ic_autorenew_3x.png */,
+				FA7D459C1EF120570076729C /* ic_autorenew.png */,
 				FA7D45881EF118FB0076729C /* AppDelegate.swift */,
 				FA7D458A1EF118FB0076729C /* ViewController.swift */,
 				FA7D458C1EF118FB0076729C /* Main.storyboard */,
@@ -123,8 +144,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7D45A11EF122780076729C /* ic_chevron_right_2x.png in Resources */,
+				FA7D459E1EF120570076729C /* ic_autorenew_3x.png in Resources */,
+				FA7D459D1EF120570076729C /* ic_autorenew_2x.png in Resources */,
+				FA7D45A51EF123310076729C /* ic_home_2x.png in Resources */,
+				FA7D45A71EF123690076729C /* ic_home.png in Resources */,
 				FA7D45931EF118FB0076729C /* LaunchScreen.storyboard in Resources */,
+				FA7D45A31EF1228E0076729C /* ic_chevron_left_2x.png in Resources */,
 				FA7D45901EF118FB0076729C /* Assets.xcassets in Resources */,
+				FA7D459F1EF120570076729C /* ic_autorenew.png in Resources */,
 				FA7D458E1EF118FB0076729C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
