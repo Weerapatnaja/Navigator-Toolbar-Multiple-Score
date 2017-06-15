@@ -9,6 +9,35 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    //Explicit
+    let strArrayNumber = ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"]
+    var intIndex = 0
+    
+    
+    
+    @IBAction func NextButton(_ sender: Any) {
+        if intIndex <= strArrayNumber.count {
+            intIndex += 1
+        }else{
+            intIndex = 0
+        }
+        ShowLable.text = strArrayNumber[intIndex]
+    }
+    
+    
+    @IBAction func BalckButton(_ sender: Any) {
+        if intIndex <= strArrayNumber.count {
+            intIndex -= 1
+        }else{
+            intIndex = 0
+        }
+        ShowLable.text = strArrayNumber[intIndex]
+    }
+    
+    
+    @IBOutlet weak var ShowLable: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
